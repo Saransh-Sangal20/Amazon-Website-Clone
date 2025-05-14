@@ -103,3 +103,28 @@ span {
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+/* Panel */
+
+.panel {
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.panel-ops {
+    width: 75%;
+    font-size: 0.85rem;
+    display: flex;
+    gap: 20px;    /* add gaps between items inside div */
+    margin-left: 15px;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
